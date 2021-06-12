@@ -2,7 +2,6 @@ import streamlit as st
 import pathlib
 from fastai.vision.all import *
 
-pathlib.PosixPath = pathlib.WindowsPath
 path = Path('models')
 
 st.title('Diabetic Retinoparthy DashBoard')
